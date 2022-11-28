@@ -3,7 +3,7 @@ class Capture():
         import cv2
         import os
 
-        files = os.listdir('../photos/Captured')  # your directory path
+        files = os.listdir('./photos/Captured')  # your directory path
         count = len(files)
         # print('len: ' + str(count))
 
